@@ -5,7 +5,7 @@
 #### 🎯 Goal  
 To set up the project folder, connect it to GitHub, and understand how version control works.  
 
-#### 💻 What I Did  
+#### 💻 What I Did
 - Created the project folder `health-fitness-data-analyzer` on my Desktop.  
 - Initialized Git (`git init`) and linked it to a new GitHub repository.  
 - Created essential files — `README.md` and `.gitignore` — through Terminal.  

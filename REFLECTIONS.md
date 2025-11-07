@@ -100,3 +100,29 @@ To load the dataset into Python, perform initial exploration, and visualize patt
 Day 3 was the most rewarding so far.  
 Seeing graphs appear from the data felt like bringing the project to life.  
 I now understand how data can tell stories — and I’m ready to take the next step toward machine learning. 
+
+#### 🌿 Day 4 — Data Cleaning & Preparation
+#### 🎯 Goal
+To clean and prepare the dataset so that it’s consistent, reliable, and ready for machine-learning training.
+#### 💻 What I Did
+Opened fitness_data.csv and inspected it for missing or inconsistent values.
+Wrote clean_data.py using pandas and numpy to detect, fill, or drop missing data.
+Normalized numerical columns to a 0–1 range for balanced scaling.
+Saved a new file cleaned_fitness_data.csv containing only clean, validated data.
+Uploaded both cleaned files directly to GitHub after resolving push conflicts.
+#### 🧠 What I Learned
+How to use .isnull(), .fillna(), and .dropna() to manage incomplete data.
+Why normalization is essential for models that rely on feature comparison.
+That small datasets still need proper cleaning to avoid biased predictions.
+GitHub allows manual uploads as a safe workaround for merge issues.
+#### 🚧 Challenges & Mistakes
+Encountered repeated git push rejections due to remote changes.
+Accidentally worked on the same file name twice and had to rename outputs.
+Initially forgot to normalize all numerical columns, causing skewed results.
+#### 🌱 Improvements for Next Time
+Always perform git pull before git push to stay in sync with remote.
+Validate each column’s data type early to avoid later conversion errors.
+Create visual checks (histograms or scatterplots) to spot outliers quickly.
+#### ✨ Reflection
+Day 4 made me realize that cleaning data is like preparing ingredients before cooking—if it’s messy, nothing turns out right.
+This step gave me confidence and a sense of control over my data, setting the foundation for building a reliable machine-learning model next.

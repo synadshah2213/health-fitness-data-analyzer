@@ -101,7 +101,9 @@ Day 3 was the most rewarding so far.
 Seeing graphs appear from the data felt like bringing the project to life.  
 I now understand how data can tell stories — and I’m ready to take the next step toward machine learning. 
 
-#### 🌿 Day 4 — Data Cleaning & Preparation
+---
+
+### 🌿 Day 4 — Data Cleaning & Preparation
 #### 🎯 Goal
 To clean and prepare the dataset so that it’s consistent, reliable, and ready for machine-learning training.
 #### 💻 What I Did
@@ -126,3 +128,36 @@ Create visual checks (histograms or scatterplots) to spot outliers quickly.
 #### ✨ Reflection
 Day 4 made me realize that cleaning data is like preparing ingredients before cooking—if it’s messy, nothing turns out right.
 This step gave me confidence and a sense of control over my data, setting the foundation for building a reliable machine-learning model next.
+
+---
+
+### 🌿 Day 5 — Building the Machine Learning Model
+#### 🎯 Goal
+To build, train, and evaluate my first machine learning model that predicts a person’s fitness level based on their daily health data.
+#### 💻 What I Did
+Created a new Python file predict_fitness.py.
+Loaded the cleaned dataset (cleaned_fitness_data.csv).
+Generated a target variable called fitness_level using steps, sleep hours, and calories.
+Split the data into training and testing sets (70/30).
+Trained a Random Forest Classifier model using scikit-learn.
+Evaluated the model’s performance using accuracy and classification metrics.
+Saved the trained model as fitness_predictor.pkl for future predictions.
+#### 🧠 What I Learned
+How supervised learning works in practice.
+The purpose of splitting data into training and testing sets.
+How the Random Forest algorithm uses decision trees to make predictions.
+What accuracy, precision, recall, and F1-score mean in evaluating models.
+How to save and reuse models with joblib.
+#### 🚧 Challenges & Mistakes
+Forgot to create the fitness_level column initially, which caused a key error.
+Faced a small bug due to inconsistent normalization between columns.
+Needed to understand how pd.cut() works for categorizing numeric values.
+#### 🌱 Improvements for Next Time
+Experiment with other algorithms like Logistic Regression or SVM.
+Tune model parameters (number of estimators, depth, etc.) for better accuracy.
+Add visualizations of feature importance to interpret the model’s behavior.
+#### ✨ Reflection
+Training my first ML model felt like a major breakthrough.
+For the first time, I saw data come full circle — from raw and messy to cleaned, analyzed, and finally intelligent.
+Even though it was a simple model, it showed me how data and logic come together to make predictions.
+This day made me feel like a real AI & ML engineer in progress.

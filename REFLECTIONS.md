@@ -161,3 +161,23 @@ Training my first ML model felt like a major breakthrough.
 For the first time, I saw data come full circle — from raw and messy to cleaned, analyzed, and finally intelligent.
 Even though it was a simple model, it showed me how data and logic come together to make predictions.
 This day made me feel like a real AI & ML engineer in progress.
+
+---
+
+### 🧩 Day 6 — Model Evaluation & Improvement
+#### 🧠 What I Did
+Ran the improved machine learning model using Random Forest and GridSearchCV.
+Generated confusion matrix and feature importance visualizations.
+Saved the improved model as improved_fitness_predictor.pkl for later use.
+Tested the code both in Terminal and Jupyter Notebook, confirming identical results.
+#### 💡 What I Learned
+A confusion matrix helps visualize how accurate the model is — seeing all values on the diagonal means perfect predictions!
+Feature importance shows which factors (like steps, sleep, calories, water intake) influence fitness levels the most.
+Learned how small warnings (like “palette deprecation”) don’t break the code but help improve compatibility in future versions.
+#### ⚙️ Mistakes / Fixes
+Initially saved the file as .py.txt by mistake — realized the importance of proper file extensions.
+Learned to rename files and run scripts correctly in Terminal.
+Understood how consistent file management makes GitHub integration smoother.
+#### ✨ Reflection
+Day 6 made everything click. Seeing my model produce real visual outputs felt like watching my code come to life.
+This step made me realize I can go beyond just writing code — I can actually create, test, and interpret intelligent systems.

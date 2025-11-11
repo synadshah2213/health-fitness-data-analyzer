@@ -181,3 +181,27 @@ Understood how consistent file management makes GitHub integration smoother.
 #### ✨ Reflection
 Day 6 made everything click. Seeing my model produce real visual outputs felt like watching my code come to life.
 This step made me realize I can go beyond just writing code — I can actually create, test, and interpret intelligent systems.
+
+---
+
+### 🧩 Day 7 — Integration & Final Pipeline  
+
+#### 🧠 What I Did  
+- Created the final integration notebook `main_app.ipynb` to connect all steps — from cleaned data to model predictions.  
+- Fixed a `ValueError` caused by extra columns (`date`, `fitness_level`) and refined the input data before prediction.  
+- Generated the final output file `predicted_fitness_output.csv` containing the predicted fitness levels.  
+- Uploaded the notebook, output CSV, and all supporting files to GitHub to complete the project structure.  
+
+#### 💡 What I Learned  
+- Integration is where everything finally comes together — and it’s also where attention to detail matters most.  
+- Learned how trained models remember their original feature columns and why matching input data is crucial.  
+- Understood the importance of verifying file paths, naming consistency, and documentation for reproducible results.  
+
+#### ⚙️ Mistakes / Fixes  
+- Faced an error because my data included unseen columns during prediction — fixed it by cleaning the input dynamically.  
+- Initially tried to run a missing `.py` file but realized my final workflow worked better as a Jupyter Notebook (`.ipynb`).  
+- Improved my understanding of how to handle file formats and project organization across tools like Terminal, Jupyter, and GitHub.  
+
+#### ✨ Reflection  
+Day 7 wrapped everything beautifully. Running the final script and seeing the “✅ Predictions added!” message felt like the grand finale of my entire learning process.  
+This day made me realize that coding isn’t just about syntax — it’s about structure, clarity, and creating something that actually works from start to finish.  

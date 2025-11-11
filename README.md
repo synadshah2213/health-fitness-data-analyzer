@@ -35,5 +35,11 @@ The dataset `fitness_data.csv` includes the following columns:
 - Build an ML model to predict fitness level from daily inputs  
 - Develop an interactive dashboard for data visualization  
 
+## 🚀 How to Run This Project
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/synadshah2213/health-fitness-data-analyzer.git
+   cd health-fitness-data-analyzer
+ -  - 
 

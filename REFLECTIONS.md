@@ -205,3 +205,29 @@ This step made me realize I can go beyond just writing code — I can actually c
 #### ✨ Reflection  
 Day 7 wrapped everything beautifully. Running the final script and seeing the “✅ Predictions added!” message felt like the grand finale of my entire learning process.  
 This day made me realize that coding isn’t just about syntax — it’s about structure, clarity, and creating something that actually works from start to finish.  
+
+---
+
+### 🧩 Day 8 — Streamlit App Creation & Deployment
+#### 🧠 What I Did
+- Created an interactive **Streamlit web app (app.py)** to make my machine learning model usable.
+- Added input fields for sleep hours, steps, calories, water intake, heart rate, and workout minutes.
+- Integrated the trained Random Forest model (`improved_fitness_predictor.pkl`) to generate predictions live.
+- Linked the app with the **SQLite database** so that every prediction gets stored automatically.
+- Successfully ran the app locally using `streamlit run app.py`.
+
+#### 💡 What I Learned
+- Learned the **end-to-end flow** of deploying an ML model: from data → model → real-time app.
+- Understood how Streamlit bridges the gap between code and users — turning scripts into dashboards.
+- Discovered the importance of saving files in correct formats (`.py` not `.rtf` or `.txt` 😅).
+- Learned how to debug terminal issues and directory errors on macOS.
+
+#### ⚙️ Mistakes / Fixes
+- Accidentally used TextEdit’s rich text mode — fixed it by creating the file through **Terminal (nano)**.
+- Reorganized files inside the `health-fitness-data-analyzer` folder for clean structure.
+
+#### ✨ Reflection
+Day 8 was honestly the most satisfying day yet — seeing my model come alive as a real, working app felt surreal.  
+This project no longer feels like lines of code; it feels like **something I built from scratch that actually works.**  
+Now, every part — data, database, ML, and web — is connected, and I finally understand how it all fits together.
+

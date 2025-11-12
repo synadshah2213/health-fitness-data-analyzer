@@ -43,3 +43,4 @@ The dataset `fitness_data.csv` includes the following columns:
    cd health-fitness-data-analyzer
  -  - 
 
+![Project Banner](banner.png)

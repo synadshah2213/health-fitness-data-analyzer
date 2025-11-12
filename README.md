@@ -42,3 +42,7 @@ The dataset `fitness_data.csv` includes the following columns:
    git clone https://github.com/synadshah2213/health-fitness-data-analyzer.git
    cd health-fitness-data-analyzer
  -  - 
+
+<p align="center">
+  <img src="banner.png" alt="Health & Fitness Data Analyzer Banner" width="100%">
+</p>

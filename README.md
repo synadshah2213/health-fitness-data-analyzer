@@ -46,3 +46,10 @@ The dataset `fitness_data.csv` includes the following columns:
 <p align="center">
   <img src="banner.png" alt="Health & Fitness Data Analyzer Banner" width="100%">
 </p>
+
+## 🖼️ Demo Preview
+Here’s a look at the app in action 👇
+
+<p align="center">
+  <img src="app_screenshot.png" alt="App Screenshot" width="80%">
+</p>
